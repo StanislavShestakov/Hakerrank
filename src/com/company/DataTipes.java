@@ -16,6 +16,9 @@ public class DataTipes {
                 System.out.println(x+" can be fitted in:");
                 if(x>=-128 && x<=127){
                     System.out.println("* byte");
+                    System.out.println("* short");
+                    System.out.println("* int");
+                    System.out.println("* long");
                 }else if(x>= Short.MIN_VALUE && x <= Short.MAX_VALUE){
                     System.out.println("* short");
                     System.out.println("* int");
